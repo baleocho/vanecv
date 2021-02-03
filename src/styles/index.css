@@ -1,0 +1,232 @@
+/*VANESSA MENDOZA*/
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #757575;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+h1 {
+  color: #f1f1f1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  :root {
+    scroll-behavior: smooth;
+  }
+}
+/* Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) {
+  .contenedor {
+    width: 100%;
+    height: auto;
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+  #menu-izquierdo {
+  }
+}
+
+#menu-izquierdo {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100px;
+  background-color: #202020;
+  -webkit-box-shadow: 5px 0px 5px 1px rgba(0, 0, 0, 0.5);
+  box-shadow: 5px 0px 5px 1px rgba(0, 0, 0, 0.5);
+}
+.menu-img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  padding: 0;
+}
+.menu-buttom {
+  text-decoration: none !important;
+  width: 100%;
+  height: auto;
+  background-color: #202020;
+  color: white;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s all;
+}
+.menu-buttom:hover {
+  background-color: #666;
+}
+.menu-buttom-icon {
+  margin: 10px 0;
+  height: 32px;
+  width: 32px;
+  filter: invert(30%);
+}
+.menu-buttom-title {
+  text-align: center;
+  font-style: normal;
+  font-size: 14px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+section {
+  height: auto;
+  min-height: 10vh;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  background-color: #181818;
+}
+
+.contenedor {
+  width: 100%;
+  height: auto;
+  padding-left: calc(10vw + 100px);
+  padding-right: 10vw;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.inicio-title {
+  font-weight: 200;
+  font-size: 52px;
+  text-align: center;
+  margin-top: 5vh;
+  margin-bottom: 15px;
+}
+.inicio-sub-title {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  margin-bottom: 5vh;
+  color: #f2f2f2;
+}
+.inicio-img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-height: 70vh;
+  margin: auto;
+}
+#acerca {
+  display: flex;
+  align-items: center;
+}
+.acerca-title {
+  font-weight: 100;
+  font-size: 28px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.acerca-sub-title {
+  font-weight: 500;
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 15px;
+}
+.trayectoria-title {
+  font-weight: 100;
+  font-size: 28px;
+  text-align: left;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+.trayectoria-card {
+  border-radius: 5px;
+  transition: 0.5s all;
+  width: 400px;
+  display: flex;
+  padding: 1rem;
+}
+.trayectoria-card:hover {
+  transform: translateY(-10px);
+}
+.trayectoria-card-img {
+  width: 30%;
+}
+.trayectoria-card-content {
+  padding: 0.8rem;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  flex-flow: column;
+}
+.trayectoria-card-title {
+  font-size: 18px;
+  font-weight: lighter;
+  margin-bottom: 10px;
+}
+.trayectoria-card-title-date {
+  font-size: 12px;
+}
+.trayectoria-card-description {
+}
+.hobbies {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-flow: row wrap;
+}
+.hobbie-contenedor {
+  width: 100px;
+}
+.hobbie-icon {
+  display: block;
+  margin: auto;
+  filter: invert(60%);
+}
+.hobbie-descripcion {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.contacto-buttom {
+  background-color: #f2f2f2;
+  color: #202020;
+  border: none;
+  padding: 0.5rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.contacto-buttom:hover {
+  background-color: #a7a7a7;
+}
+
+.contacto-input {
+  padding: 10px;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  margin-bottom: 0.5rem;
+}
+
+footer {
+  background-color: #202020;
+}
+.footer-social {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row nowrap;
+}
+.footer-social-icon {
+  filter: invert(30%);
+  width: 32px;
+  margin: 0 5px;
+}
+.footer-text {
+  padding-top: 10px;
+  font-size: 12px;
+  text-align: center;
+}
